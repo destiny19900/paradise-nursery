@@ -1,10 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
-  base: "/paradise-nursery/",
   plugins: [react()],
-  server: {
-    port: 5173,
-  },
-});
+  base: 'https://destiny19900.github.io/paradise-nursery/',
+})
